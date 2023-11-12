@@ -7,7 +7,6 @@ This project with main purpose is to use pytest-bdd to do automated testing
 api-test/                                   # root project directory
 ├── conftest.py                             # file used to setup test configurations
 ├── core_lib/                               # libs directory
-│   ├── make_tree_path.py                   # api that used to generate the tree path
 │   └── utilities.py                        # utilities
 ├── data/                                   # data directory
 ├── format_code.sh                          # format code helper used to format code and check lint
@@ -56,6 +55,14 @@ python run.py \        # change to python3 if you running on macOS or Linux
 --install-libraries \  # (optional) Install libraries before running, --no-install-libraries to disabled it (default is --install-libraries)
 --show-report          # (optional) show report after running, --no-show-report or remove pram to skip showing report (default is --no-show-report)
 ```
+
+### Sample allure report
+- To show report only run command:
+```
+allure serve allure-report
+```
+
+![allure_report](docs/allure_report.PNG)
 
 # Improve in the future:
 - ✅ Structure the payload into json file
