@@ -1,0 +1,8 @@
+INFO     root:Logger.py:35 ╔═════════════════════════════════════════════════════════════
+INFO     root:Logger.py:35 ║ Features: Test Authentication
+INFO     root:Logger.py:35 ║   Scenario: Login successfully with valid credential
+INFO     root:Logger.py:35 ║     ✅ When User call auth api with credential "WEB3AUTH"
+INFO     root:Logger.py:35 ║     ✅ Then Response code should be "200"
+INFO     root:Logger.py:35 ║     ✅ And Response time should less than "1.5"s
+INFO     root:Logger.py:35 ║     ✅ And Response should match schema "auth_login_resp"
+INFO     root:Logger.py:35 ╚═════════════════════════════════════════════════════════════

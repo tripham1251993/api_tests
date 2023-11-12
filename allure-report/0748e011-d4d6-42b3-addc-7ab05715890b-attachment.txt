@@ -1,0 +1,8 @@
+2023-10-23 15:13:09,794 root INFO ╔═════════════════════════════════════════════════════════════
+2023-10-23 15:13:09,795 root INFO ║ Features: Test Authentication
+2023-10-23 15:13:09,795 root INFO ║   Scenario: Login successfully with valid credential
+2023-10-23 15:13:09,795 root INFO ║     ✅ When User call auth api with credential "WEB3AUTH"
+2023-10-23 15:13:09,795 root INFO ║     ✅ Then Response code should be "200"
+2023-10-23 15:13:09,795 root INFO ║     ✅ And Response time should less than "1.5"s
+2023-10-23 15:13:09,795 root INFO ║     ✅ And Response should match schema "auth_login_resp"
+2023-10-23 15:13:09,795 root INFO ╚═════════════════════════════════════════════════════════════

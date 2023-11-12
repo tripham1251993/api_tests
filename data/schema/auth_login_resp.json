@@ -1,0 +1,7 @@
+{
+    "accessToken": "string",
+    "id": "string",
+    "email": "string",
+    "signup_state": "string",
+    "realmId": "string"
+}

@@ -1,0 +1,1 @@
+{"uuid": "b949b565-d014-4d1d-a11e-1cb15331e7ad", "befores": [{"name": "pytestbdd_stepdef_when_User call auth api with credential \"{credential}\"", "status": "passed", "start": 1698048788744, "stop": 1698048788744}], "start": 1698048788744, "stop": 1698048789804}
