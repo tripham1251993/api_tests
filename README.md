@@ -1,4 +1,4 @@
-# Mocana API Testing
+# API Testing
 ## Introduction
 This project with main purpose is to use pytest-bdd to do automated testing
 
